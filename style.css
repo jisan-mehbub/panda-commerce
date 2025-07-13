@@ -1,0 +1,286 @@
+.poppins-normal {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1175px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 63px;
+    gap: 56px;
+}
+nav img{
+    width: 159px;
+    /* margin-right: 10px; */
+}
+nav li{
+    list-style: none;
+    margin-right: 24px;
+}
+nav a{
+    text-decoration: none;
+    color: #707070;
+    font-weight: 600;
+    font-size: 16px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+} 
+nav input{
+    width: 509px;
+    padding: 12px 0px;
+    padding-left: 12px;
+    background-color: #F1F1F1;
+    color: #F1F1F1;
+    border: none;
+    border-radius: 66px;
+}
+.search-bar{
+    position: relative;
+    /* background-color: red; */
+}
+.search-bar i{
+    position: absolute;
+    top: 14px;
+    /* right: 17px; */
+    right: 10px;
+    /* color: #F1F1F1; */   
+}
+.tv{
+    display: flex;
+    width: 1212px;
+    margin: 0 auto;
+    background-color: #FEEAE9;
+    gap: 141px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding:34px 63px 48px 46px ;
+    margin-bottom: 64px;
+}
+.tv-pic img{
+    width: 402px;
+    height: 319px;
+}
+.tv h3{
+    font-size: 56px;
+    font-weight: bold;
+    color: #1f1f1f;
+    /* margin: 0; */
+    /* margin-bottom: 8px; */
+}
+.tv h4{
+    font-weight: 600;
+    color: #Ff136f;
+    font-size: 41px;
+      margin: 0;
+    margin-bottom: 8px
+}
+.tv p{
+    color: #4e4e4e;
+}
+.tv button{
+    padding: 14px 62px 14px 28px ;
+    background-color: #Ff136f;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 20px;
+}
+.category-container{
+    /* width: 1128px; */
+    margin: 0 156px;
+    display: flex;
+    justify-content:center ;
+    gap: 26px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.category h1{
+     font-size: 36px;
+     font-weight: 600;
+     color: #1f1f1f;
+     
+     margin: 0px 1082px 40px 270px;
+}
+.watch , .bag , .shoes{
+    display: flex;
+    padding: 15px 47px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    gap: 76px;
+}
+.watch h4{
+    font-size: 36px;
+     font-weight: 700;   
+     color: white; 
+}
+.bag h4{
+     font-size: 36px;
+     font-weight: 700;
+     color: white; 
+}
+.shoes h4{
+     font-size: 36px;
+     font-weight: 700;
+     color: white; 
+}
+.watch{
+    background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%,rgb(255, 208, 25) 84.486%);
+}
+.bag{
+    /* Linear */
+background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+}
+.shoes{
+    background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
+}
+/* shared styles */
+.container{
+    width: 1321px;
+    margin: auto;
+}
+.tv button:hover{
+    cursor: pointer;
+    background: linear-gradient(45deg,#f1f136,#e0db24);
+    transform: scale(1.05);
+    box-shadow: 0 0 12px #f1f136 ;
+    transition: 0.5s;
+}
+footer button:hover{
+     cursor: pointer;
+    background: linear-gradient(45deg,#f1f136,#e0db24);
+    transform: scale(1.05);
+    box-shadow: 0 0 12px #f1f136 ;
+    transition: 0.5s;
+}
+.shoe-card button:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px white;
+    cursor: pointer;
+    transition: .5s;
+}
+
+/* main styles */
+main{
+    background-color: #F4F4F4;
+    /* margin-bottom: 100px; */
+    padding: 0px 0px 100px 0px;
+}
+.shoe-card{
+    background-color: white;
+    text-align: center;
+    padding: 24px 12px;
+    border: none;
+    border-radius: 20px;
+}
+.shoe-card img{
+    width: 336px;
+    height: 202px;
+}
+.shoe-card span{
+    font-size: 36px;
+    font-size: 600;
+    color: black;
+    display: block;
+    margin-bottom: 30px;
+    font-size: 24px;
+    text-align: center;
+}
+.shoe-card button{
+    padding: 14px 62px 14px 28px ;
+    background-color: black;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 20px;
+}
+.shoe-card h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f1f1f;
+}
+.shoe-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.shoes-bags-title{
+    width: 1321px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.one{
+    /* margin-top: 50px; */
+    margin-bottom: 100px;
+}
+.shoes-bags-title h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f1f1f;
+}
+.shoes-bags-title a{
+    font-size: 20px;
+    font-weight: 600;
+    color: #FF9D00;
+    text-decoration: none;
+}
+.two img{
+    height: 200px;
+    width: 200px;
+}
+.two{
+    /* margin-bottom: 141px; */
+}
+/* footer style */
+footer{
+    padding: 147px 265px;
+    text-align: center;
+    background-color: #fff2f1;
+}
+footer h2{
+    font-size: 30px;
+    font-weight: 900;
+    color: #1f1f1f;
+}
+footer p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #707070;
+}
+footer input{
+    width: 663px;
+    border: none;
+    background-color: white;
+    height: 73px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #cccccc;
+    padding-left: 35px;
+}
+footer button{
+    width: 157px;
+    height: 75px;
+    border: none;
+    background-color: #Ff136f;
+    color: white;
+    position: absolute;
+    right: 324px;
+    font-size: 24px;
+    font-weight: 600;
+    /* padding-left: 35px; */
+}
+.submission{
+    position: relative;
+}
