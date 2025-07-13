@@ -240,9 +240,7 @@ main{
     height: 200px;
     width: 200px;
 }
-.two{
-    /* margin-bottom: 141px; */
-}
+
 /* footer style */
 footer{
     padding: 147px 265px;
@@ -276,7 +274,7 @@ footer button{
     background-color: #Ff136f;
     color: white;
     position: absolute;
-    right: 324px;
+    right: 157gpx;
     font-size: 24px;
     font-weight: 600;
     /* padding-left: 35px; */
